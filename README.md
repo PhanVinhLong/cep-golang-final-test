@@ -32,12 +32,6 @@ The following structure is something that has evolved based on several projects 
 ```
 
 ## Endpoints
-
-- GET   /             - Ping
-- POST  /api/v1/users - Request: {"username", "password"} - Create a user
-- GET   /api/v1/users - List all users
-- GET   /api/v1/users/:id - List a user
-------------------------
 - POST  /api/v1/datas/upload - Request: {"file": ...} - Upload csv file and insert to db
 
 
